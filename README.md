@@ -1,1 +1,2 @@
 # habit-tracking-app-iu-OOP
+In the fast-paced field of data science, practical projects are key to developing and demonstrating new skills. I’m currently working on a project as part of the “Object-Oriented and Functional Programming with Python” module in my iu-training program, where I’m creating a habit-tracking app. This project will illustrate my ability to apply programming principles and problem-solving skills, while also showcasing my ongoing adaptability and learning throughout the process.
