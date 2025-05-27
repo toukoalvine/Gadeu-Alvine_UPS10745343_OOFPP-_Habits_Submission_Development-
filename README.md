@@ -2,23 +2,22 @@
 ## My habit tracker app project
 
 This project consist of a Python CLI (Command-Line Interface) for a habit tracking application that includes the following features:
-. User registration
-. User can select habits (name, frequency, and optional end date).
-. the users inputs are via the command line.
-. Integration with your existing Habit and HabitTracker classes.
+. User login/Registration
+. Choose option from main menu
+. Execute action by selecting a number from the list
+. Application interacts with the database and update
+. Returns to main menu
 
 Following are the requirements of the application:
 
-. the system tracks when it has been created, and the date and time the habit tasks have been completed
-
-. For each predefined habit, the user should enter an End date, if not the default will be set for a period of 4 weeks
-
-. You need some way of storing, or persisting, habit data in between user sessions
-
-. Your solution has an analytics module that return a list of all currently tracked habits  and the longest streak of all the habits,  daily and weekly.
-
-. The validity of your habit tracking components and the analytics module has been tested by providing a unit test suite that can be run following the instructions provided with the solution.
-
+. Track predefined habits with daily or weekly frequency.
+. Store and manage habits and check-offs using SQLite3.
+. Analyze habit performance:
+  . Longest streak per habit
+  . Longest streak across all habits
+. Modular Python architecture using OOP principles.
+. Test coverage with `pytest` and `unittest.mock`.
+. CLI menu with guided navigation.
 
 ## Installation
 pip install -r requirements.txt
@@ -27,7 +26,8 @@ pip install -r requirements.txt
 ## Usage
 Start
 Python main.py
-and follow instructions on screen
+and follow instructions on screen.
 
 ## Test
 pytest .
+unittest .
