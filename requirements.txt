@@ -1,9 +1,0 @@
-
-
-# SQLite database
-# sqlite3 comes built-in with Python, no need to install via pip
-
-
-
-# Development & testing
-pytest
